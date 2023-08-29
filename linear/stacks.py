@@ -1,3 +1,6 @@
+# class review https://replit.com/@adamOwada/Stack-Review#main.py
+
+
 class Node:
     def __init__(self, value, next=None):
         self.value = value
@@ -18,4 +21,4 @@ class Stack:
 if __name__ == "__main__":
     stack_1 = Stack(Node(1))
     stack_1.top.next = Node(2)
-stack_1.top.next.next = Node(3)
+    stack_1.top.next.next = Node(3)

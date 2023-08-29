@@ -19,7 +19,7 @@ class LL:
             # step 3: "do the thing"
             print(current.value)
             # step 4: move the pointer
-            current = current.next  # reassign current to the next node in the linked list, eventually current.next = Falsey, which breaks the while loop
+            current = current.next  # reassign current to the next node in the linked list, eventually current.next will = Falsey, which breaks the while loop
 
 
 if __name__ == "__main__":

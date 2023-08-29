@@ -1,3 +1,6 @@
+# class review demo: https://replit.com/@AdamOwada/Queue-Review#main.py
+
+
 class Node:
     def __init__(self, value, next=None):
         self.value = value
@@ -14,6 +17,11 @@ class Queue:
 
     def dequeue(self):
         pass
+
+
+def print_queue(queue):
+    # step 1
+    current = queue.front  # 
 
 
 if __name__ == "__main__":
